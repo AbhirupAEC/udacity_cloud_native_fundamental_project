@@ -31,5 +31,3 @@ readinessProbe:
   httpGet:
     path: /healthz 
 
-configmap:
-  data: "version: alpine"
