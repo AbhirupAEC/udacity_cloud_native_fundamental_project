@@ -1,0 +1,38 @@
+namespace:
+  name: sandbox
+ 
+service:
+  port: 4111
+  targetPort: 3111
+  protocol: TCP
+  type: ClusterIP
+
+image:
+  repository: abhirupaec2022/techtrends
+  tag: latest
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+resources:
+  requests:
+    cpu: 64Mi
+    memory: 250m
+  limits:
+    cpu: 128Mi
+    memory: 500m
+
+containers:
+  ports:
+    containerPort: 3111
+
+livenessProbe:
+  httpGet:
+    path: /healthz 
+
+readinessProbe:
+  httpGet:
+    path: /healthz 
+
+configmap:
+  data: "version: alpine"
