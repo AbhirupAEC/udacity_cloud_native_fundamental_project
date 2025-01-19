@@ -11,8 +11,8 @@ replicaCount: 3
 
 resources:
   requests:
-    cpu: 50m
-    memory: 128Mi
+    cpu: 50Mi
+    memory: 128m
   limits:
     cpu: 100Mi
     memory: 200m
