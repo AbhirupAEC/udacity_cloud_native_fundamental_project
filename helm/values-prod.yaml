@@ -7,12 +7,10 @@ service:
 image:
   pullPolicy: Always
 
-replicaCount: 3
+replicaCount: 1
 
 resources:
   requests:
     cpu: 50Mi
     memory: 128m
-  limits:
-    cpu: 100Mi
-    memory: 200m
+
