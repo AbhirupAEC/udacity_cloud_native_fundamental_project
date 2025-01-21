@@ -16,8 +16,12 @@ replicaCount: 1
 
 resources:
   requests:
-    cpu: 64Mi
-    memory: 250m
+    memory: 64Mi
+    cpu: 250m
+  limits:
+    cpu: 500m
+    memory: 128Mi
+
 
 containers:
   ports:

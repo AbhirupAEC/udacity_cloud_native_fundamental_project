@@ -108,7 +108,7 @@ def create():
             connection.execute('INSERT INTO posts (title, content) VALUES (?, ?)',
                          (title, content))
             connection.commit()
-            app.logger.info('New post created')
+            app.logger.info('New article created, post name entered is: '+str(title))
             connection.close()
             db_conn_counter=db_conn_counter-1
 

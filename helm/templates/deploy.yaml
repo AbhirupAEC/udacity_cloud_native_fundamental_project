@@ -47,7 +47,3 @@ spec:
             memory: {{ .Values.resources.requests.memory }}
 
 
-
-resources:
-  requests:
-    cpu:
