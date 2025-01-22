@@ -12,33 +12,25 @@ docker logs 2f70cbd37f3d
 
 ## Logs from the container running the TechTrends application
 # Done: paste logs from the Docker container 
-2025-01-19 11:23 - INFO -  * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
-2025-01-19 11:23 - INFO - 172.17.0.1 - - [19/Jan/2025 11:23:14] "GET /metrics HTTP/1.1" 200 -
-2025-01-19 11:23 - INFO - 172.17.0.1 - - [19/Jan/2025 11:23:14] "GET /favicon.ico HTTP/1.1" 404 -
-2025-01-19 11:23 - INFO - 172.17.0.1 - - [19/Jan/2025 11:23:22] "GET / HTTP/1.1" 200 -
-2025-01-19 11:23 - INFO - 172.17.0.1 - - [19/Jan/2025 11:23:22] "GET /static/css/main.css HTTP/1.1" 200 -
-2025-01-19 11:28 - INFO - 172.17.0.1 - - [19/Jan/2025 11:28:33] "GET /create HTTP/1.1" 200 -
-2025-01-19 11:28 - INFO - 172.17.0.1 - - [19/Jan/2025 11:28:33] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:29 - INFO - New post created
-2025-01-19 11:29 - INFO - 172.17.0.1 - - [19/Jan/2025 11:29:04] "POST /create HTTP/1.1" 302 -
-2025-01-19 11:29 - INFO - 172.17.0.1 - - [19/Jan/2025 11:29:05] "GET / HTTP/1.1" 200 -
-2025-01-19 11:29 - INFO - 172.17.0.1 - - [19/Jan/2025 11:29:06] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:31 - INFO - 172.17.0.1 - - [19/Jan/2025 11:31:22] "GET /create HTTP/1.1" 200 -
-2025-01-19 11:31 - INFO - 172.17.0.1 - - [19/Jan/2025 11:31:22] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:33 - DEBUG - about page retreived
-2025-01-19 11:33 - INFO - 172.17.0.1 - - [19/Jan/2025 11:33:18] "GET /about HTTP/1.1" 200 -
-2025-01-19 11:33 - INFO - 172.17.0.1 - - [19/Jan/2025 11:33:18] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:33 - INFO - 172.17.0.1 - - [19/Jan/2025 11:33:29] "GET /metrics HTTP/1.1" 200 -
-2025-01-19 11:35 - INFO - 172.17.0.1 - - [19/Jan/2025 11:35:09] "GET /create HTTP/1.1" 200 -
-2025-01-19 11:35 - INFO - 172.17.0.1 - - [19/Jan/2025 11:35:09] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:35 - INFO - 172.17.0.1 - - [19/Jan/2025 11:35:11] "GET / HTTP/1.1" 200 -
-2025-01-19 11:35 - INFO - 172.17.0.1 - - [19/Jan/2025 11:35:12] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:37 - INFO - Info retrieved for post KubeCon + CloudNativeCon 2021
-2025-01-19 11:37 - INFO - 172.17.0.1 - - [19/Jan/2025 11:37:46] "GET /2 HTTP/1.1" 200 -
-2025-01-19 11:37 - INFO - 172.17.0.1 - - [19/Jan/2025 11:37:46] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:37 - ERROR - Info requested for non existing post
-2025-01-19 11:37 - INFO - 172.17.0.1 - - [19/Jan/2025 11:37:53] "GET /100 HTTP/1.1" 404 -
-2025-01-19 11:37 - INFO - 172.17.0.1 - - [19/Jan/2025 11:37:53] "GET /static/css/main.css HTTP/1.1" 304 -
-2025-01-19 11:37 - DEBUG - about page retreived
-2025-01-19 11:37 - INFO - 172.17.0.1 - - [19/Jan/2025 11:37:59] "GET /about HTTP/1.1" 200 -
-2025-01-19 11:37 - INFO - 172.17.0.1 - - [19/Jan/2025 11:37:59] "GET /static/css/main.css HTTP/1.1" 304 -
+2025-01-21 14:35 - INFO -  * Running on http://172.17.0.2:3111/ (Press CTRL+C to quit)
+2025-01-21 14:36 - INFO - 172.17.0.1 - - [21/Jan/2025 14:36:26] "GET / HTTP/1.1" 200 -
+2025-01-21 14:36 - INFO - 172.17.0.1 - - [21/Jan/2025 14:36:27] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-01-21 14:36 - INFO - 172.17.0.1 - - [21/Jan/2025 14:36:27] "GET /favicon.ico HTTP/1.1" 404 -
+2025-01-21 14:37 - INFO - Info retrieved for post 2020 CNCF Annual Report
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:13] "GET /1 HTTP/1.1" 200 -
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:13] "GET /static/css/main.css HTTP/1.1" 304 -
+2025-01-21 14:37 - DEBUG - about page retreived
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:16] "GET /about HTTP/1.1" 200 -
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:17] "GET /static/css/main.css HTTP/1.1" 304 -
+2025-01-21 14:37 - INFO - Info retrieved for post KubeCon + CloudNativeCon 2021
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:23] "GET /2 HTTP/1.1" 200 -
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:23] "GET /static/css/main.css HTTP/1.1" 304 -
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:25] "GET /create HTTP/1.1" 200 -
+2025-01-21 14:37 - INFO - 172.17.0.1 - - [21/Jan/2025 14:37:25] "GET /static/css/main.css HTTP/1.1" 304 -
+2025-01-21 14:38 - INFO - New article created, post name entered is: abhirups_post
+2025-01-21 14:38 - INFO - 172.17.0.1 - - [21/Jan/2025 14:38:06] "POST /create HTTP/1.1" 302 -
+2025-01-21 14:38 - INFO - 172.17.0.1 - - [21/Jan/2025 14:38:06] "GET / HTTP/1.1" 200 -
+2025-01-21 14:38 - INFO - 172.17.0.1 - - [21/Jan/2025 14:38:06] "GET /static/css/main.css HTTP/1.1" 304 -
+2025-01-21 14:39 - ERROR - Info requested for non existing post
+2025-01-21 14:39 - INFO - 172.17.0.1 - - [21/Jan/2025 14:39:17] "GET /200 HTTP/1.1" 404 -
+2025-01-21 14:39 - INFO - 172.17.0.1 - - [21/Jan/2025 14:39:17] "GET /static/css/main.css HTTP/1.1" 304 -
